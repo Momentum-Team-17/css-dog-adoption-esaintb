@@ -24,6 +24,8 @@ h2 {
 
 .dogname {
     font-family: oswald;
+    border: 2px solid green; 
+    margin: -7px 0px 0px 0px; 
 }
 
 body {
@@ -35,14 +37,14 @@ body {
     /* need this to activate flexing */
     justify-content: flex-start; 
     flex-wrap: wrap; 
-    
+   
 }
 
 .traits > p {
     /* selects children of class */
     background-color: #89DEEF; 
-    padding: 10px; 
-    margin: 0px 10px 10px 0px;
+    padding: 3px; 
+    margin: 0px 5px 4px 0px;
     /* top right bottom left like a clock */
     border-radius: 30px;
     /* knocks off the corner of the box */
@@ -50,6 +52,7 @@ body {
 }
 
 #dog-container {
+    /* #is for ids*/
     border: solid purple;
     display: flex;
     flex-wrap: wrap; 
@@ -58,12 +61,14 @@ body {
 }
 
 .dog {
-    width: 30%; 
+    width: 32%; 
     border: 3px solid pink; 
+    /* display: wrap; 
+    justify-content: space-between;  */
 }
 
 img {
     width: 100%;
     /* % adjusts to the parent*/
-    
+    border: 2px solid orange;
 }
