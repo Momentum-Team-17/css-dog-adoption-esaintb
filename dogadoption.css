@@ -20,6 +20,42 @@ body {
     font-family: open sans; 
 }
 
-adoptform {
-    font-size: 40%; 
+.adoptform {
+    font-size: 25%; 
+}
+
+.traits {
+    display: flex; 
+    /* need this to activate flexing */
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    
+}
+
+.traits > p {
+    /* selects children of class */
+    background-color: #89DEEF; 
+    padding: 10px; 
+    margin: 0px 10px 10px 0px;
+    /* top right bottom left like a clock */
+    border-radius: 30px;
+    /* knocks off the corner of the box */
+}
+
+#dog-container {
+    border: solid purple;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.dog {
+    width: 30%; 
+    border: 3px solid pink; 
+}
+
+img {
+    width: 100%;
+    /* % adjusts to the parent*/
+    
 }
