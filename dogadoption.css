@@ -81,4 +81,10 @@ img {
 
 .footblock {
     flex: 1 1 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: oswald;
+
+    
 }
