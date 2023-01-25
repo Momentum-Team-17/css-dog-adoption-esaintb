@@ -16,12 +16,17 @@ h2 {
     font-size: 110%; 
 }
 
-body {
-    font-family: open sans; 
+.adoptform {
+    font-size: 80%; 
+    font-family: open sans;
 }
 
-.adoptform {
-    font-size: 25%; 
+.dogname {
+    font-family: oswald;
+}
+
+body {
+    font-family: open sans; 
 }
 
 .traits {
