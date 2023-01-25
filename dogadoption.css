@@ -72,3 +72,13 @@ img {
     /* % adjusts to the parent*/
     border: 2px solid orange;
 }
+
+.footer {
+    border: solid salmon; 
+    display: flex; 
+    height: 100px; 
+}
+
+.footblock {
+    flex: 1 1 auto; 
+}
