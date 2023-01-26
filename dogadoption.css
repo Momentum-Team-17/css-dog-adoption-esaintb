@@ -70,7 +70,6 @@ img {
 }
 
 .footer {
-    border: solid salmon; 
     display: flex; 
     height: 130px; 
 }
@@ -95,4 +94,23 @@ img {
 .footblock>img {
     height: auto; 
     width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background position: center; 
+    background size: cover; 
+    background-position: absolute; 
+    background-image: linear-gradient(0deg,rgba(rgba166, 169, 240, 0.25)rgba(166, 169, 240, 0.25)), url(starter_files/images/donate.jpg)
 }
+
+/* .image-overlay {
+    height: auto;
+    width: 100%;
+    background-color; (#A6A9F0) */
+}
+
+/* .tinted-image {
+    background: linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45))
+        url(starter_files/images/donate.jpg); */
